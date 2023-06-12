@@ -1,0 +1,50 @@
+Running 10s test @ http://172.16.16.101:44444
+  10 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    22.29ms   19.38ms  57.42ms   64.44%
+    Req/Sec    33.45     31.51   111.00     90.91%
+  45 requests in 10.10s, 5.36KB read
+  Socket errors: connect 0, read 11, write 0, timeout 0
+  Non-2xx or 3xx responses: 45
+Requests/sec:      4.45
+Transfer/sec:     543.50B
+Running 10s test @ http://172.16.16.101:44444
+  50 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     9.78ms   19.29ms 203.93ms   99.12%
+    Req/Sec    39.46     38.57   141.00     85.71%
+  113 requests in 10.10s, 13.46KB read
+  Socket errors: connect 0, read 21, write 0, timeout 0
+  Non-2xx or 3xx responses: 113
+Requests/sec:     11.19
+Transfer/sec:      1.33KB
+Running 10s test @ http://172.16.16.101:44444
+  100 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    13.36ms   20.69ms 209.34ms   95.77%
+    Req/Sec    57.00    127.05   750.00     95.74%
+  331 requests in 10.10s, 39.44KB read
+  Socket errors: connect 0, read 14, write 0, timeout 0
+  Non-2xx or 3xx responses: 331
+Requests/sec:     32.76
+Transfer/sec:      3.90KB
+Running 10s test @ http://172.16.16.101:44444
+  150 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     9.67ms    7.24ms  33.49ms   84.93%
+    Req/Sec    19.13     14.61    60.00     84.21%
+  73 requests in 10.10s, 8.70KB read
+  Socket errors: connect 0, read 17, write 0, timeout 0
+  Non-2xx or 3xx responses: 73
+Requests/sec:      7.23
+Transfer/sec:      0.86KB
+Running 10s test @ http://172.16.16.101:44444
+  200 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    12.98ms    7.04ms  36.21ms   70.39%
+    Req/Sec    34.71     26.19   101.00     81.54%
+  233 requests in 10.10s, 27.76KB read
+  Socket errors: connect 0, read 23, write 0, timeout 0
+  Non-2xx or 3xx responses: 233
+Requests/sec:     23.06
+Transfer/sec:      2.75KB
